@@ -488,11 +488,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (selectedBikeVal !== 'all') {
                 const bikeMapping = {
-                    'scoopy': { name: 'Honda Scoopy', daily: 80000, weekly: 500000, img: 'assets/images/bikes/scoopy.png' },
-                    'nmax': { name: 'Yamaha NMAX Neo 5', daily: 140000, weekly: 900000, img: 'assets/images/bikes/yamahaneo.png' },
-                    'pcx': { name: 'Honda PCX 160', daily: 150000, weekly: 950000, img: 'assets/images/bikes/pcx.png' },
-                    'xmax': { name: 'Yamaha XMAX 250', daily: 300000, weekly: 1900000, img: 'assets/images/bikes/xmax.png' },
-                    'xsr': { name: 'Yamaha XSR 155', daily: 180000, weekly: 1150000, img: 'assets/images/bikes/xsr.png' }
+                    'scoopy': { name: 'Honda Scoopy', daily: 80000, weekly: 500000, img: 'assets/images/bikes/scoopy.webp' },
+                    'nmax': { name: 'Yamaha NMAX Neo 5', daily: 140000, weekly: 900000, img: 'assets/images/bikes/yamahaneo.webp' },
+                    'pcx': { name: 'Honda PCX 160', daily: 150000, weekly: 950000, img: 'assets/images/bikes/pcx.webp' },
+                    'xmax': { name: 'Yamaha XMAX 250', daily: 300000, weekly: 1900000, img: 'assets/images/bikes/xmax.webp' },
+                    'xsr': { name: 'Yamaha XSR 155', daily: 180000, weekly: 1150000, img: 'assets/images/bikes/xsr.webp' }
                 };
 
                 const target = bikeMapping[selectedBikeVal];
